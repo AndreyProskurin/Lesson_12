@@ -13,6 +13,7 @@
 		3210B3301F71786600A465DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3210B32E1F71786600A465DD /* Main.storyboard */; };
 		3210B3321F71786600A465DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3210B3311F71786600A465DD /* Assets.xcassets */; };
 		3210B3351F71786600A465DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3210B3331F71786600A465DD /* LaunchScreen.storyboard */; };
+		3210B33E1F7179A500A465DD /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3210B33D1F7179A500A465DD /* CollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3210B3311F71786600A465DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3210B3341F71786600A465DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3210B3361F71786600A465DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3210B33C1F7179A500A465DD /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		3210B33D1F7179A500A465DD /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				3210B3331F71786600A465DD /* LaunchScreen.storyboard */,
 				3210B3361F71786600A465DD /* Info.plist */,
 				3210B3251F71786600A465DD /* Supporting Files */,
+				3210B33C1F7179A500A465DD /* CollectionViewController.h */,
+				3210B33D1F7179A500A465DD /* CollectionViewController.m */,
 			);
 			path = Lesson_12_Collections_VC_Life_Cycle;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3210B33E1F7179A500A465DD /* CollectionViewController.m in Sources */,
 				3210B32D1F71786600A465DD /* ViewController.m in Sources */,
 				3210B32A1F71786600A465DD /* AppDelegate.m in Sources */,
 				3210B3271F71786600A465DD /* main.m in Sources */,
